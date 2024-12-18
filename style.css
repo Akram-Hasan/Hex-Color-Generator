@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Styling header */
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .main-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .sub-heading {
+    font-size: 1rem;
+    font-weight: 400;
+    color: gray;
+    opacity: 80%;
+    margin-top: 0.5rem;
+  }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('/assets/bgimage2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px -4px 10px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  /* Gradient background from gray-700 to gray-900 */
+  background: linear-gradient(to bottom, #374151, #111827);
+}
+
+.color-container {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1), -2px -2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 70%;
+  border-radius: 6px;
+}
+
+.color-code {
+  border: 1px solid #ddd;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 1rem;
+  border-radius: 3px;
+}
+
+.color-code .text {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.color-code .icon {
+  cursor: pointer;
+  padding: 5px;
+  transition: 0.3s ease;
+}
+
+.color-code .icon:hover {
+  color: rgb(108, 22, 194);
+}
+
+#generateBtn {
+  width: 100%;
+  border: none;
+  padding: 10px 10px;
+  color: #fff;
+  background-color: rgb(108, 22, 194);
+  cursor: pointer;
+  border-radius: 3px;
+  transition: 0.3s ease;
+}
+
+#generateBtn:hover {
+  background-color: rgb(58, 16, 99);
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Styling footer */
+.developer{
+    color: white;
+    margin-top: 50px;
+}
+.developer span {
+    font-weight: 600;
+    color: #00ff62;
+  }
