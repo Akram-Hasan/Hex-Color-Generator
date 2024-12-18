@@ -2,7 +2,7 @@
 
 **A simple tool to generate random hexadecimal color codes with a single click.**
 
-## **Live Demo**
+## **Live Preview**
 **https://hex-color-generator-akram-hasan.vercel.app/**
 
 ## **Screenshots**
